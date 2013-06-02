@@ -1,0 +1,83 @@
+.input-line div 
+{
+  background-color: #000000; 
+  color: #00FF00;
+}
+.extborder
+{
+  overflow: hidden;
+  margin: 10px;
+  padding: 25px; 
+  outline: 2px dashed #0090D2;
+  width:auto;
+  height:auto;
+}
+.prompt
+{
+  border: none;
+  font-size: 350%;
+  padding-top: 6px;
+}
+
+.line-layout
+{
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  clear: both;
+}
+
+.button
+{ 
+	display: block; 
+	width: 100%;
+	border: none;
+	font-size: 300%;
+}
+
+.commandline
+{
+	position:relative;
+	width: 100%;
+    height:auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.nameLine
+{
+    outline: none;
+	display: block;
+	width: 100%;
+	height:auto;
+	border: none;
+	background-color: #000000;
+	color: #00FF00;
+	overflow: hidden
+}
+
+.input-line textarea 
+{ 
+    outline: none;
+	display: block;
+	width: 100%;
+	height:100%;
+	border: none;
+	background-color: #000000;
+	color: #00FF00;
+	position:absolute;
+	overflow: hidden
+}
+textarea, .commandline
+{
+    font-family:arial; 
+    font-size:200%;
+}
+
+h1
+{
+    text-align: center;
+}

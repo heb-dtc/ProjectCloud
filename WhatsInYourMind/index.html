@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /> -->
+		<title> Just Tell Me </title>
+	</head>
+	<body>
+		<form method="post" action="justtellme.php">
+		<div class="input-line">
+			<p><h1>@-&^ WHAT'S ON YOUR MIND? *~#!</h1></p>
+			<div class="extborder">
+			
+				<div class="line-layout">
+					<div class="prompt">$&gt;</div><div id="cmd" class="commandline"><textarea autofocus></textarea></div>
+				    <script type="text/javascript">
+					(function() 
+					{
+						var doc = document,
+						container = doc.getElementById("cmd"),
+						commandLine = doc.getElementsByTagName('textarea')[0],
+						node = doc.createTextNode('');
+					
+						container.appendChild(node);
+					
+						function updateSize() 
+						{
+							node.nodeValue = commandLine.value + '\n\n';
+						}
+					
+						commandLine.onkeypress = commandLine.onkeyup = commandLine.onchange = updateSize;
+					
+						updateSize();
+					})();
+					</script>
+					
+				</div> <!-- end input-line line -->
+				
+			</div> <!-- end extborder -->
+			<p>
+				<input class="button" type="submit" name="message" id="message" value="OK" />
+			</p>
+		</div>
+		</form>
+	</body>
+</html>
