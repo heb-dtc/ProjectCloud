@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlexCity/FlexCity.iml" filepath="$PROJECT_DIR$/FlexCity/FlexCity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlexCityProject.iml" filepath="$PROJECT_DIR$/FlexCityProject.iml" />
+    </modules>
+  </component>
+</project>
+
